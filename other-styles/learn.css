@@ -1,0 +1,293 @@
+nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.nav .logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+
+}
+
+
+
+nav .logo img {
+    width: 60px;
+    border-radius: 50%;
+    padding: 8px;
+
+
+}
+
+.title {
+    font-size: 20px;
+    margin-top: 25px;
+    margin-right: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+    color: white;
+}
+
+.main-page {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+
+.main-page li {
+    margin-right: 10px;
+    list-style: none;
+    width: 150px;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    border-bottom: 2px solid white;
+}
+
+
+nav span {
+
+    position: relative;
+    top: 20px;
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+
+
+}
+
+.learn-body {
+    background-color: rgb(52, 50, 50);
+}
+
+.body-desc {
+    background-image: url('../Assets/LearnWithUs/LearnWithUsHeader.jpg');
+    background-size: cover;
+
+    height: 500px;
+}
+
+.learn-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.body-content {
+
+    width: 600px;
+    margin-bottom: 60px;
+    height: 350px;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+
+
+}
+
+.body-content1 {
+    position: relative;
+
+}
+
+.body-content2 {
+    position: relative;
+}
+
+.body-content3 {
+    position: relative;
+}
+
+.ethiopia {
+    background-image: url('../Assets/rodrigo-flores-T5qjs-63kqQ-unsplash.jpg');
+    background-size: cover;
+    opacity: 1.0;
+}
+
+.brazil {
+    background-image: url('../Assets/yanapi-senaud-6HR8vpjYUHo-unsplash.jpg');
+    background-size: cover;
+    opacity: 1.0;
+}
+
+.india {
+    background-image: url('../Assets/nischal-masand-dPHgM3l8_NU-unsplash.jpg');
+    background-size: cover;
+    opacity: 1.0;
+}
+
+.image-copyright {
+    position: absolute;
+    bottom: 5px;
+    font-size: 12px;
+}
+
+.learn-header {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.learn-desc {
+    line-height: 20pt;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+.learn-message {
+    font-size: 25px;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-left: 20px;
+}
+
+
+.learn-data {
+    margin-top: 10px;
+}
+
+.learn-data1 {
+    position: absolute;
+    bottom: 100px;
+}
+
+.learn-data2 {
+    position: absolute;
+    bottom: 90px;
+}
+
+.learn-data>span {
+    margin-left: 40px;
+}
+
+.learn-signup {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    border: none;
+    background-color: #FFF;
+    color: black;
+
+
+}
+
+.learn-signup:hover {
+    cursor: grab;
+    opacity: 0.7;
+}
+
+.learn-signup1 {
+    position: absolute;
+    bottom: 0px;
+    width: 560px
+}
+
+.learn-signup2 {
+    position: absolute;
+    bottom: 0px;
+    width: 560px;
+}
+
+.learn-heading {
+    text-align: center;
+    font-size: 35px;
+    color: #FFF;
+    margin-top: 60px;
+}
+
+.learn-heading2 {
+    text-align: center;
+    font-size: 26px;
+    color: #FFF;
+    margin-top: 70px;
+}
+
+.learn-price {
+    font-size: 20px;
+
+}
+
+.page-footer {
+    position: relative;
+    height: 150px;
+    color: white;
+
+
+}
+
+.page-footer>div {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.fa-brands {
+    font-size: 40px;
+}
+
+.fa-facebook {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+}
+
+.fa-square-instagram {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+
+
+@media all and (max-width: 800px) {
+    nav {
+        justify-content: flex-start;
+    }
+
+    nav ul {
+        justify-content: space-between;
+    }
+}
+
+@media all and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    nav ul li {
+        text-align: center;
+    }
+}
